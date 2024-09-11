@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+
+header {
+    background-image: linear-gradient(to top,red,black);
+    padding: 20px;
+    margin: 0%;
+}
+
+nav {
+    background-color: gray;
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgb(68, 68, 68)
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(102, 0, 0);
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    back: rgb(255, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 0;
+    box-shadow: 4px 4px 9px 0px black;
+}
+
+article {
+    background-color: rgba(209, 14, 14, 0.418);
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(255, 255, 250);
+}
+
+footer {
+    background-color: rgb(0, 217, 255);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+    
+
+}
+
+footer > p {
+    margin: 0;
+}
+
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: rgb(132, 0, 255);
+    border-radius: 50%;
+    margin: auto;
+}
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Pol[itica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias  sobre brasil</h2>
+                <p>jrnfujerhbgjhrefgvhjrefgregfr</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>pinto enorme</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

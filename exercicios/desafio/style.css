@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face { 
+    font-family: 'Dante';
+    src: url('Devil May Cry.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Dante', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 123, 123);
+    margin: 5px;
+    margin: auto;
+}
+
+
+h2 {
+font-family: 'Dante', Times, serif;
+font-size: 30px;
+font-weight: normal;
+color: rgb(0, 0, 0);
+text-align: center;
+
+
+}
+header {
+background-image: linear-gradient(180deg,red,black);
+padding: 20px;
+margin: 0%;
+}
+nav {
+background-color: rgb(104, 0, 0);
+padding: 3px;
+box-shadow: 5px 3px 7px 1px rgb(141, 1, 1)
+}
+
+nav > a {
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-weight: bold;
+margin-right: 30px;
+}
+
+nav > a:hover {
+text-decoration: underline;
+}
+
+main {
+background-color: rgb(143, 0, 0);
+padding-top: 10px;
+font-family: 'Dante', Times, serif;
+font-size: 30px;
+font-weight: normal;
+color: rgb(255, 255, 255);
+margin: auto;
+width: 800px;
+
+}
+
+article {
+background-color: rgba(209, 14, 14, 0.418);
+padding: 5px;
+text-align: center;
+}
+
