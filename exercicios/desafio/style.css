@@ -1,5 +1,22 @@
 @charset "UTF-8";
 
+/*
+
+#D6331A
+#FA3C1F
+#AD2915
+#851F10
+#5C160B
+
+*/
+
+:root {
+    --cor0: #D6331A;
+    --cor1: #FA3C1F;
+    --cor2: #AD2915;
+    --cor3: #851F10;
+    --cor4: #5C160B;
+}
 @font-face { 
     font-family: 'Dante';
     src: url('Devil May Cry.ttf')format('truetype');
@@ -17,7 +34,7 @@ h1 {
 }
 
 body {
-    background-color: rgb(255, 123, 123);
+    background-color: #D6331A;
     margin: 5px;
     margin: auto;
 }
@@ -27,7 +44,7 @@ h2 {
 font-family: 'Dante', Times, serif;
 font-size: 30px;
 font-weight: normal;
-color: rgb(0, 0, 0);
+color: #3a0800;
 text-align: center;
 
 
@@ -62,7 +79,8 @@ font-size: 30px;
 font-weight: normal;
 color: rgb(255, 255, 255);
 margin: auto;
-width: 800px;
+min-width: 320px;
+max-width: 800px;
 
 }
 
@@ -72,3 +90,7 @@ padding: 5px;
 text-align: center;
 }
 
+footer {
+    background-color: #980909;
+    color: white;
+}
