@@ -26,7 +26,7 @@
 
 h1 {
     font-family: 'Dante', Times, serif;
-    font-size: 3em;
+    font-size: 50px;
     font-weight: normal;
     color: rgb(255, 255, 255);
     padding-top: 50px;
@@ -34,7 +34,7 @@ h1 {
 }
 
 body {
-    background-color: #D6331A;
+    background-color: #3a0800;
     margin: 5px;
     margin: auto;
 }
@@ -50,9 +50,14 @@ text-align: center;
 
 }
 header {
-background-image: linear-gradient(180deg,red,black);
-padding: 20px;
+background-image: linear-gradient(180deg,#881806,rgb(0, 0, 0));
+padding: 5px;
 margin: 0%;
+font-size: 30px;
+font-family: 'Dante', Times, serif;
+text-align: center;
+
+
 }
 nav {
 background-color: rgb(104, 0, 0);
@@ -68,7 +73,12 @@ margin-right: 30px;
 }
 
 nav > a:hover {
+
 text-decoration: underline;
+}
+
+aside ul {
+    columns: 2;
 }
 
 main {
@@ -81,6 +91,7 @@ color: rgb(255, 255, 255);
 margin: auto;
 min-width: 320px;
 max-width: 800px;
+border-radius: 8px;
 
 }
 
