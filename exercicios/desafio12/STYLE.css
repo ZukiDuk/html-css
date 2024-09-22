@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+body {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    margin: 5px;
+    margin: auto;
+    font-size: 1em;
+
+}
+section.normal {
+	background-color: white;
+	color: black;
+}
+header > h1 {
+	padding-top: 50px;
+	font-variant: small-caps;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 10vw;
+	text-align: center;
+}
+
+section {
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	line-height: 2em;
+	padding-left: 30px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 3.5vw;
+}
+section.image > p {
+	display: inline-block;
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 0.514);
+	text-shadow: 1px 1px 0px black;
+}
+
+section.image {
+	background-color: rgb(51, 51, 51);
+	color: white;
+	box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section#img01 {
+	background-image: url('imagens/darksouls.jpg');
+	background-position: right center;
+	background-size: cover;
+	background-repeat: repeat;
+}
+section#img02 {
+	background-image: url('imagens/devilmaycry.jpg');
+	background-size: cover;
+
+	
+}
+
+footer {
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+
+}
+
+footer a:hover {
+	text-decoration: underline
+}
