@@ -1,0 +1,1 @@
+tick tome no seu cu
